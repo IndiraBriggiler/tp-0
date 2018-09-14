@@ -1,0 +1,91 @@
+header{
+    text-align: center;
+    }
+nav{
+    margin-top: 30px;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.e-mail{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+} 
+.barra{
+    text-align: center;
+    margin-top: 0px;
+    height: 100%;
+}   
+.text{
+    width: 60%;
+    justify-content: center;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-right: 2%;
+    padding: 2%;
+}
+.aceptar{
+    background-color:#dca7c4;
+    border: 1px solid #dca7c4;
+    color: white;
+    border-radius: 3px;
+    width: 30%;
+    font-size: 10px;
+    padding: 2%;
+    margin-left: 2%;
+}
+.tani{
+    color:#dca7c4;
+}
+.span1{
+    margin-right: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+.cuerpo{
+    width: 100%;
+    height: 100px;
+}
+i{
+    font-size: 35px;
+    color: #dca7c4;
+    margin: 10px;
+}
+.icons{
+    text-align: center;
+    margin-top: 10px;
+}
+@media (min-width: 800px){
+    .e-mail{
+        display: inline-block;
+        font-size: 20px;
+        width: 13%;
+        margin: 0;
+    }
+    .barra{
+        display: inline-block;
+        width: 25%;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .aceptar{
+        font-size: 12px;
+        padding: 3%;
+    }
+    .icons{
+        text-align: right;
+        margin-right: 5%;
+    }
+    .cuerpo{
+        height: 300px;
+    }
+    
+}
