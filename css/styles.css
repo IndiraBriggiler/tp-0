@@ -4,6 +4,10 @@ header{
 .nav{
     margin-top: 30px;
 }
+.figure{
+    width: 90%;
+    margin: auto;
+}
 .banner{
     width: 100%;
     height: 100%;
